@@ -1,3 +1,17 @@
+// 主背景色
+$background:#FD914BFF;
+
+$font-color999:#999999; 
+$font-color333:#333; 
+$font-color4242:#424242;
+$font24-size:24px;
+$font28-size:28px;
+$font32-size:32px;
+
+$border-radius:50%;
+$border5-radius:5px;
+$border10-radius:10px;
+
 .container {
   width: 100%;
   height: 100%;
@@ -28,4 +42,40 @@
   display: inline-block;
   width: 100%;
   content: '';
+}
+.padding10{
+  padding: 10px
+}
+.padding20{
+  padding: 20px
+}
+.padding30{
+  padding: 30px
+}
+.padding10-left-right{
+  padding: 0 10px;
+}
+.padding20-left-right{
+  padding: 0 20px;
+}
+.padding30-left-right{
+  padding: 0 30px;
+}
+.font24-size{
+  font-size:$font24-size;
+}
+.font28-size{
+  font-size:$font28-size;
+}
+.font32-size{
+  font-size:$font32-size;
+}
+.border-radius{
+  border-radius: $border-radius;
+}
+.border5-radius{
+  border-radius: $border5-radius;
+}
+.border10-radius{
+  border-radius: $border10-radius;
 }

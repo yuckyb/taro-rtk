@@ -53,7 +53,6 @@ export default class HomePage extends Taro.Component {
               </View>
             </View>
         </View>
-        {/* <Button>HomePage</Button> */}
         </View>
       </View>
      
